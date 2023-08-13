@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aditi Webdeveloper </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(10, 69, 69);
+            color: whitesmoke;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(49, 137, 137);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        nav ul li a:hover {
+            color: rgb(43, 8, 76);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 1rem;
+            background-color: chocolate;
+            height: 1.5px;
+            margin: 19px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .right {
+            font-size: -0.1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+            height: 50vh;
+
+        }
+
+        .firstSection div {
+            width: 40%;
+        }
+
+        .leftSection {
+            width: 34px;
+            font-size: 1.5rem;
+
+        }
+
+        .leftSection .buttons{
+            padding: 12px ;
+        }
+
+        .leftSection .btn1 {
+            background-color: rgb(47, 47, 97);
+            color: azure;
+            border: 2px solid;
+            border-radius: 3px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .leftSection .btn2 {
+            background-color: rgb(47, 47, 97);
+            color: azure;
+            border: 2px solid;
+            border-radius: 3px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: chocolate;
+
+        }
+
+        .text-gray {
+            font-size: x-small;
+            color: grey;
+        }
+
+        #element {
+            color: chocolate;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 90vh;
+
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .secondSection .box {
+            background: aliceblue;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 0.9px;
+            background-color: whitesmoke;
+            margin: 0 80px;
+
+
+
+
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 61px;
+            width: 150px;
+            font-size: 15px;
+
+
+        }
+
+
+        .vertical-title:hover {
+            color: rgb(43, 8, 76);
+            font-size: 1.05rem;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 75px;
+            color: darkgray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: rgb(38, 87, 87);
+
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+
+        }
+
+
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer ul :hover {
+            color: rgb(43, 8, 76);
+            font-size: 1.05rem;
+
+        }
+
+        .footer>div {
+            width: 230px;
+        }
+
+        footer .footer-rights {
+            font-size: 10px;
+            text-align: center;
+            margin: 15px 25px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aditi's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi,My name is
+                <span class="purple">
+                    Aditi
+                </span>
+                <div>I am passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons"></div>
+
+                <button class="btn1">Download resume</button>
+                <button class="btn2">Github</button>
+
+
+
+            </div>
+            <div class="rightSection">
+                <img src="female-developer.png" </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <h1>SKILLS</h1>
+            <span class="text-gray">What I have learnt done so far</span>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="HTML5_logo_and_wordmark.svg.png" alt="">
+                    <div class="vertical-title">
+                        HTML/CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Learnt HTML/CSS,can develop basic websites using prior knowledge
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python-logo-only.png" alt="">
+                    <div class="vertical-title">
+                        Python
+                    </div>
+                    <div class="vertical-desc">
+                        Python basics.
+                        Projects on Machine learning:Fake news detection,Trading bot for cryptocurrency.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="cpp logo.png" alt="">
+                    <div class="vertical-title">
+                        C++
+                    </div>
+                    <div class="vertical-desc">
+                        Coding languages includes C/C++
+                        C++ with oops.
+                        DSA using C++
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                        Java
+                    </div>
+                    <div class="vertical-desc">
+                        Coding languages includes java.
+                        Java with oops
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="cybersecurity logo.jpeg" alt="">
+                    <div class="vertical-title">
+                        Cybersecurity
+                    </div>
+                    <div class="vertical-desc">
+                        Succesfully completed course on Introduction to cybersecurity
+                        Outcome - A website called password strength checker
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="nlp logo.png" alt="">
+                    <div class="vertical-title">
+                        NLP Using AIML
+                    </div>
+                    <div class="vertical-desc">
+                        Succesfully completed course on NLP using AIML.
+                        Outcome- Sentiment Analysis on amazon reviews and a chatbot.
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Aditi's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Email</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Sevices</li>
+                    <li>Linkedin</li>
+                    <li>Instagram</li>
+                    <li>FAQs</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>IEEE member</li>
+                    <li>Blog</li>
+                    <li>Resouces</li>
+                    <li>More</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;aditi'sportfolio.com || All rights reserved
+        </div>
+    </footer>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', '&amp; python programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    </script>
+</body>
+</body>
+
+</html>
